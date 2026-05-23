@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#127968;</text></svg>"/>
+<meta name="robots" content="index, follow"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>Sell My House Fast Warner Robins GA | Atlanta Cash Buyers</title>
 <meta name="description" content="Sell your house fast in Warner Robins with Atlanta Cash Buyers. Get a fair cash offer, sell as-is, no repairs, no agent fees, and close on your timeline. Serving all of Middle Georgia. Call (478) 952-2395."/>
@@ -11,7 +13,7 @@
 <meta property="og:description" content="Get a fair cash offer for your Warner Robins home. No repairs, no fees, close in 7 days. Serving all of Middle Georgia."/>
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="https://www.sellyourhousefastwarnerrobins.com/"/>
-<meta property="og:image" content="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=75&auto=format&fit=crop&fm=webp"/>
+<meta property="og:image" content="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80&auto=format&fit=crop&fm=webp"/>
 <meta property="og:image:alt" content="Warner Robins Georgia suburban home - Sell your house fast with Atlanta Cash Buyers"/>
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -27,7 +29,7 @@
 
 <style>
 /* ================================================
-   DESIGN SYSTEM Ã¢ÂÂ Forest Green / Cream / Muted Gold
+   DESIGN SYSTEM &mdash; Forest Green / Cream / Muted Gold
 ================================================ */
 :root{
   --forest:#0F3D2E;
@@ -79,16 +81,16 @@ h3{font-size:1.1rem;font-weight:700}
 
 /* BUTTONS */
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:'Sora',sans-serif;font-size:.88rem;font-weight:700;padding:13px 26px;border-radius:var(--radius);border:2px solid transparent;cursor:pointer;transition:all .22s ease;white-space:nowrap;text-decoration:none;letter-spacing:.01em}
-/* Primary CTA Ã¢ÂÂ muted gold */
+/* Primary CTA &mdash; muted gold */
 .btn-g{background:var(--tan);color:var(--forest-dark);border-color:var(--tan)}
 .btn-g:hover{background:var(--tan-dark);color:#fff;border-color:var(--tan-dark);transform:translateY(-2px);box-shadow:0 8px 24px rgba(200,169,106,.35)}
-/* White button Ã¢ÂÂ for dark sections */
+/* White button &mdash; for dark sections */
 .btn-w{background:#fff;color:var(--forest);border-color:#fff}
 .btn-w:hover{background:var(--tan-soft);color:var(--forest-dark);border-color:var(--tan-soft);transform:translateY(-2px)}
-/* Outline forest Ã¢ÂÂ light sections */
+/* Outline forest &mdash; light sections */
 .btn-out{background:transparent;color:var(--forest);border-color:var(--forest)}
 .btn-out:hover{background:var(--forest-light)}
-/* Outline cream Ã¢ÂÂ dark sections */
+/* Outline cream &mdash; dark sections */
 .btn-out-w{background:transparent;color:#fff;border-color:rgba(239,225,190,.55)}
 .btn-out-w:hover{background:rgba(239,225,190,.1);border-color:var(--tan-soft);color:var(--tan-soft)}
 .btn-lg{padding:16px 36px;font-size:.95rem}
@@ -367,6 +369,141 @@ h3{font-size:1.1rem;font-weight:700}
   .rev-grid{grid-template-columns:1fr}
   .faq-btns{flex-direction:column}
 }
+
+/* ================================================
+   MOBILE RESPONSIVE - Complete Audit Fix
+================================================ */
+html,body{overflow-x:hidden}
+img{max-width:100%;height:auto}
+
+/* Sticky mobile CTA - hidden on desktop */
+.mob-cta{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--forest-dark);padding:10px 16px;gap:10px;z-index:9999;border-top:2px solid var(--tan);box-shadow:0 -4px 16px rgba(0,0,0,.2)}
+.mob-cta a{flex:1;text-align:center;padding:13px 8px;border-radius:8px;font-weight:700;font-size:14px;text-decoration:none;min-height:48px;display:flex;align-items:center;justify-content:center}
+.mob-cta .mob-cta-call{background:rgba(255,255,255,.12);color:#fff;border:1px solid rgba(255,255,255,.25)}
+.mob-cta .mob-cta-offer{background:var(--tan);color:var(--forest-dark)}
+
+/* Comparison table scroll on mobile */
+.compare-scroll-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 -4px;padding:0 4px}
+.compare-cols{min-width:480px}
+
+@media(max-width:768px){
+  /* General */
+  .wrap{padding:0 18px}
+  .sec{padding:52px 0}
+  
+  /* Nav */
+  .nav,.hdr-phone,.hdr-right .btn-g{display:none}
+  .ham{display:flex}
+  
+  /* Hero */
+  .hero{padding:44px 0 32px}
+  .hero-grid{grid-template-columns:1fr;gap:28px}
+  .hero h1{font-size:clamp(1.75rem,7vw,2.4rem)}
+  .hero-sub{font-size:15px}
+  .hero-badges{flex-wrap:wrap;gap:6px}
+  .hbadge{font-size:11px;padding:5px 10px}
+  .hform{padding:26px 22px}
+  .frow{grid-template-columns:1fr}
+  .ff input,.ff select,.ff textarea{width:100%;box-sizing:border-box;font-size:16px}
+  .btn-full,.hform .btn,.sf-form .btn{width:100%;text-align:center}
+  
+  /* How It Works */
+  .hiw-grid{grid-template-columns:1fr;gap:22px}
+  .hiw-connector{display:none}
+  .hiw-card{text-align:center}
+  
+  /* About / Why Choose Us */
+  .why-grid{grid-template-columns:1fr}
+  .why-img{width:100%;min-height:240px}
+  .why-img img{width:100%;height:240px;object-fit:cover}
+  
+  /* Benefits */
+  .benefits-grid{grid-template-columns:1fr}
+  .benefits-right{padding-top:0}
+  
+  /* Why Sell for Cash */
+  .why-cash-main{grid-template-columns:1fr;gap:24px}
+  .why-cash-left img{width:100%;height:190px;object-fit:cover;border-radius:14px}
+  .why-cash-cards{grid-template-columns:1fr}
+  .wcc{padding:18px}
+  
+  /* Quiz */
+  .qcard{padding:26px 18px}
+  .qopt{min-height:48px;padding:12px 14px;width:100%;box-sizing:border-box}
+  .qbtns{display:flex;flex-direction:column;gap:10px}
+  .qbtns button,.qbtns a{min-height:48px;width:100%}
+  
+  /* Service Areas */
+  .areas-grid{grid-template-columns:repeat(2,1fr)}
+  
+  /* We Help With */
+  .whelp-grid{grid-template-columns:repeat(2,1fr)}
+  .whelp-card{padding:14px}
+  
+  /* FAQ */
+  .fiq{min-height:48px;padding:14px 16px;font-size:15px}
+  .fi-body p{font-size:14px;line-height:1.65}
+  .faq-btns{flex-direction:column;gap:8px}
+  .faq-btns a{width:100%;text-align:center}
+  
+  /* Contact */
+  .sf-grid{grid-template-columns:1fr}
+  .sf-form .frow{grid-template-columns:1fr}
+  .sf-form input,.sf-form select,.sf-form textarea{width:100%;box-sizing:border-box;font-size:16px}
+  
+  /* Footer */
+  .footer-grid{grid-template-columns:1fr 1fr;gap:26px}
+  .footer-btm{flex-direction:column;gap:12px}
+  .footer-btm-links{justify-content:center}
+  
+  /* Trust strip */
+  .tstrip-in{flex-direction:column;align-items:center;gap:10px}
+  .ti+.ti::before{display:none}
+  
+  /* Show sticky CTA */
+  .mob-cta{display:flex !important}
+  
+  /* Body padding for sticky CTA */
+  body{padding-bottom:70px}
+}
+
+@media(max-width:480px){
+  .wrap{padding:0 14px}
+  .sec{padding:44px 0}
+  .hero{padding:38px 0 28px}
+  h1{font-size:clamp(1.55rem,8vw,1.9rem)!important}
+  h2{font-size:clamp(1.25rem,6vw,1.6rem)!important}
+  .hiw-step-num{font-size:1.35rem}
+  .areas-grid{grid-template-columns:repeat(2,1fr);gap:7px}
+  .area-chip{font-size:12px;padding:7px 10px}
+  .whelp-grid{grid-template-columns:repeat(2,1fr);gap:8px}
+  .whelp-ico{font-size:1.3rem}
+  .whelp-txt{font-size:11px}
+  .deal-list{grid-template-columns:1fr}
+  .footer-grid{grid-template-columns:1fr}
+  .fb-contact a,.fb-contact span{font-size:13px}
+  .rev-grid{grid-template-columns:1fr}
+  .cband-in{flex-direction:column;text-align:center}
+  .cband-btns{justify-content:center}
+}
+
+@media(max-width:375px){
+  .wrap{padding:0 12px}
+  .hero h1{font-size:1.5rem!important}
+  .hero-sub{font-size:13px}
+  .hbadge{font-size:10px;padding:4px 8px}
+  .hform{padding:20px 14px}
+  .hform h3{font-size:1.05rem}
+  .btn-lg{padding:13px 18px;font-size:14px}
+  .wcc{padding:14px}
+  .wcc-ico{font-size:1.4rem}
+  .areas-grid{grid-template-columns:1fr 1fr;gap:6px}
+  .area-chip{font-size:11px;padding:6px 9px}
+  .whelp-grid{grid-template-columns:1fr 1fr}
+  .qcard{padding:20px 12px}
+  .fi-head{padding:12px 12px}
+  .mob-cta a{font-size:13px;padding:11px 6px}
+}
 </style>
 </head>
 <body>
@@ -392,7 +529,6 @@ h3{font-size:1.1rem;font-weight:700}
       </nav>
 
       <div class="hdr-right">
-        <!-- CUSTOMIZE: Replace with your actual phone number -->
         <a href="tel:+14789522395" class="hdr-phone">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C9.6 21 3 14.4 3 6c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
           (478) 952-2395
@@ -415,7 +551,7 @@ h3{font-size:1.1rem;font-weight:700}
       <a href="#faq"     onclick="scrollTo('#faq',event)">FAQ</a>
       <a href="#contact" onclick="scrollTo('#contact',event)">Contact</a>
       <div class="mob-nav-btm">
-        <a href="tel:+14789522395" class="hdr-phone" style="font-size:14px">Ã°ÂÂÂ (478) 952-2395</a>
+        <a href="tel:+14789522395" class="hdr-phone" style="font-size:14px">&#128222; (478) 952-2395</a>
         <a href="#contact" class="btn btn-g btn-full" onclick="scrollTo('#contact',event)">Get Cash Offer</a>
       </div>
     </div>
@@ -439,11 +575,11 @@ h3{font-size:1.1rem;font-weight:700}
         <p class="hero-sub">Get a fair cash offer for your Middle Georgia property without repairs, showings, agent fees, or months of waiting.</p>
         <p class="hero-fast">Get cash for your home in as little as 7 days</p>
         <div class="hero-badges">
-          <span class="hbadge"><span class="hbadge-ck">Ã¢ÂÂ</span> No Showings</span>
-          <span class="hbadge"><span class="hbadge-ck">Ã¢ÂÂ</span> Any Condition</span>
-          <span class="hbadge"><span class="hbadge-ck">Ã¢ÂÂ</span> No Agent Fees</span>
-          <span class="hbadge"><span class="hbadge-ck">Ã¢ÂÂ</span> Fast Closing</span>
-          <span class="hbadge"><span class="hbadge-ck">Ã¢ÂÂ</span> Local Buyer</span>
+          <span class="hbadge"><span class="hbadge-ck">&#10003;</span> No Showings</span>
+          <span class="hbadge"><span class="hbadge-ck">&#10003;</span> Any Condition</span>
+          <span class="hbadge"><span class="hbadge-ck">&#10003;</span> No Agent Fees</span>
+          <span class="hbadge"><span class="hbadge-ck">&#10003;</span> Fast Closing</span>
+          <span class="hbadge"><span class="hbadge-ck">&#10003;</span> Local Buyer</span>
         </div>
       </div>
 
@@ -480,7 +616,7 @@ h3{font-size:1.1rem;font-weight:700}
           </div>
           <button type="submit" class="btn btn-g btn-full btn-lg" style="margin-top:2px">Submit My Cash Offer</button>
         </form>
-        <p class="fnote">Ã°ÂÂÂ No obligation. No pressure. Get started in minutes.</p>
+        <p class="fnote">&#128210; No obligation. No pressure. Get started in minutes.</p>
       </div>
 
     </div>
@@ -493,11 +629,11 @@ h3{font-size:1.1rem;font-weight:700}
 <div class="tstrip" role="list" aria-label="Trust indicators">
   <div class="wrap">
     <div class="tstrip-in">
-      <div class="ti" role="listitem"><span style="font-size:1rem">Ã¢ÂÂ¡</span><span class="ti-txt">Cash in as little as 7 days</span></div>
-      <div class="ti" role="listitem"><span style="font-size:1rem">Ã°ÂÂÂ </span><span class="ti-txt">No showings required</span></div>
-      <div class="ti" role="listitem"><span style="font-size:1rem">Ã°ÂÂÂ§</span><span class="ti-txt">Any condition accepted</span></div>
-      <div class="ti" role="listitem"><span style="font-size:1rem">Ã°ÂÂÂ°</span><span class="ti-txt">Zero fees or commissions</span></div>
-      <div class="ti" role="listitem"><span style="font-size:1rem">Ã°ÂÂÂ</span><span class="ti-txt">Local Warner Robins buyer</span></div>
+      <div class="ti" role="listitem"><span style="font-size:1rem">&#9889;</span><span class="ti-txt">Cash in as little as 7 days</span></div>
+      <div class="ti" role="listitem"><span style="font-size:1rem">&#127968;</span><span class="ti-txt">No showings required</span></div>
+      <div class="ti" role="listitem"><span style="font-size:1rem">&#128295;</span><span class="ti-txt">Any condition accepted</span></div>
+      <div class="ti" role="listitem"><span style="font-size:1rem">&#128176;</span><span class="ti-txt">Zero fees or commissions</span></div>
+      <div class="ti" role="listitem"><span style="font-size:1rem">&#128205;</span><span class="ti-txt">Local Warner Robins buyer</span></div>
     </div>
   </div>
 </div>
@@ -552,7 +688,7 @@ h3{font-size:1.1rem;font-weight:700}
         <!-- Real estate photo: Warner Robins suburban home - Atlanta Cash Buyers -->
         <div class="why-img" style="border-radius:18px;overflow:hidden;position:relative;min-height:320px;background:#0F3D2E">
           <img
-            src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=800&q=75&auto=format&fit=crop&fm=webp"
+            src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=80&auto=format&fit=crop&fm=webp"
             alt="Suburban home in Warner Robins Georgia - Atlanta Cash Buyers purchases houses for cash"
             loading="lazy"
             decoding="async"
@@ -583,9 +719,9 @@ h3{font-size:1.1rem;font-weight:700}
           <div style="color:rgba(239,225,190,.55);font-size:12px;margin-top:24px;text-align:center">Warner Robins &amp; All of Middle Georgia</div>
           </div>
         </div>
-        <p class="why-left-sub">Atlanta Cash Buyers Ã¢ÂÂ your local Middle Georgia real estate solution</p>
+        <p class="why-left-sub">Atlanta Cash Buyers &mdash; your local Middle Georgia real estate solution</p>
         <p style="font-size:14px;color:var(--muted);line-height:1.78;margin-bottom:12px">
-          Atlanta Cash Buyers helps homeowners throughout Warner Robins and all of Middle Georgia sell properties without the delays and stress of a traditional listing. No repairs, no showings, no waiting months for an offer Ã¢ÂÂ just a fair cash offer and a closing date that works for you.
+          Atlanta Cash Buyers helps homeowners throughout Warner Robins and all of Middle Georgia sell properties without the delays and stress of a traditional listing. No repairs, no showings, no waiting months for an offer &mdash; just a fair cash offer and a closing date that works for you.
         </p>
         <p style="font-size:14px;color:var(--muted);line-height:1.78;margin-bottom:22px">
           We have helped Warner Robins homeowners skip costly repairs, avoid foreclosure, and get cash fast when they needed it most. When you are ready to sell quickly and without hassle, we are the trusted local team that delivers.
@@ -597,44 +733,44 @@ h3{font-size:1.1rem;font-weight:700}
       <div>
         <span class="eyebrow" style="margin-bottom:16px;display:block">How do we compare?</span>
         <div class="compare-wrap">
-          <div class="compare-cols">
+          <div class="compare-scroll-wrap" style="overflow-x:auto;-webkit-overflow-scrolling:touch"><div class="compare-cols">
             <!-- Our team -->
             <div class="cc ours">
               <div class="cc-head">
                 <span class="cc-head-title">Our Team</span>
               </div>
-              <div class="cc-item"><span class="ck">Ã¢ÂÂ</span>Immediate Cash Offer</div>
-              <div class="cc-item"><span class="ck">Ã¢ÂÂ</span>No Realtor Fees (Save up to 6%)</div>
-              <div class="cc-item"><span class="ck">Ã¢ÂÂ</span>Zero Sales Costs</div>
-              <div class="cc-item"><span class="ck">Ã¢ÂÂ</span>We Pay for Repairs</div>
-              <div class="cc-item"><span class="ck">Ã¢ÂÂ</span>No Listing or Open Houses</div>
-              <div class="cc-item"><span class="ck">Ã¢ÂÂ</span>Fast Closing</div>
+              <div class="cc-item"><span class="ck">&#10003;</span>Immediate Cash Offer</div>
+              <div class="cc-item"><span class="ck">&#10003;</span>No Realtor Fees (Save up to 6%)</div>
+              <div class="cc-item"><span class="ck">&#10003;</span>Zero Sales Costs</div>
+              <div class="cc-item"><span class="ck">&#10003;</span>We Pay for Repairs</div>
+              <div class="cc-item"><span class="ck">&#10003;</span>No Listing or Open Houses</div>
+              <div class="cc-item"><span class="ck">&#10003;</span>Fast Closing</div>
             </div>
             <!-- Real Estate Agent -->
             <div class="cc">
               <div class="cc-head">
                 <span class="cc-head-title">Real Estate Agent</span>
               </div>
-              <div class="cc-item"><span class="xk">Ã¢ÂÂ</span>Realtor Fees up to 6%</div>
-              <div class="cc-item"><span class="xk">Ã¢ÂÂ</span>High Sales Costs</div>
-              <div class="cc-item"><span class="xk">Ã¢ÂÂ</span>Offers in 30 to 90 Days</div>
-              <div class="cc-item"><span class="xk">Ã¢ÂÂ</span>Listings and Showings Required</div>
-              <div class="cc-item"><span class="xk">Ã¢ÂÂ</span>15% of Sales Fall Through</div>
-              <div class="cc-item"><span class="xk">Ã¢ÂÂ</span>Slow Closing Process</div>
+              <div class="cc-item"><span class="xk">&#10007;</span>Realtor Fees up to 6%</div>
+              <div class="cc-item"><span class="xk">&#10007;</span>High Sales Costs</div>
+              <div class="cc-item"><span class="xk">&#10007;</span>Offers in 30 to 90 Days</div>
+              <div class="cc-item"><span class="xk">&#10007;</span>Listings and Showings Required</div>
+              <div class="cc-item"><span class="xk">&#10007;</span>15% of Sales Fall Through</div>
+              <div class="cc-item"><span class="xk">&#10007;</span>Slow Closing Process</div>
             </div>
             <!-- iBuyers -->
             <div class="cc">
               <div class="cc-head">
                 <span class="cc-head-title">iBuyers</span>
               </div>
-              <div class="cc-item"><span class="xk">Ã¢ÂÂ</span>Service Charge 6% to 7%</div>
-              <div class="cc-item"><span class="xk">Ã¢ÂÂ</span>High Fees</div>
-              <div class="cc-item"><span class="xk">Ã¢ÂÂ</span>No Real People</div>
-              <div class="cc-item"><span class="xk">Ã¢ÂÂ</span>Repair Costs Deducted</div>
-              <div class="cc-item"><span class="xk">Ã¢ÂÂ</span>Robot Automated Pricing</div>
-              <div class="cc-item"><span class="xk">Ã¢ÂÂ</span>Decent Condition Required</div>
+              <div class="cc-item"><span class="xk">&#10007;</span>Service Charge 6% to 7%</div>
+              <div class="cc-item"><span class="xk">&#10007;</span>High Fees</div>
+              <div class="cc-item"><span class="xk">&#10007;</span>No Real People</div>
+              <div class="cc-item"><span class="xk">&#10007;</span>Repair Costs Deducted</div>
+              <div class="cc-item"><span class="xk">&#10007;</span>Robot Automated Pricing</div>
+              <div class="cc-item"><span class="xk">&#10007;</span>Decent Condition Required</div>
             </div>
-          </div>
+          </div></div>
         </div>
         <p class="compare-note">For informational purposes. Individual situations will vary.</p>
       </div>
@@ -643,7 +779,7 @@ h3{font-size:1.1rem;font-weight:700}
 </section>
 
 <!-- ============================================================
-     BENEFITS Ã¢ÂÂ LET'S MAKE A DEAL
+     BENEFITS &mdash; LET'S MAKE A DEAL
 ============================================================ -->
 <section class="sec sec-brand-gradient benefits-sec" aria-labelledby="deal-head">
   <div class="wrap benefits-inner">
@@ -655,18 +791,18 @@ h3{font-size:1.1rem;font-weight:700}
     <div class="benefits-grid">
       <!-- Left: benefit list -->
       <div class="benefits-list">
-        <div class="bitem"><div class="bitem-dot">Ã¢ÂÂ</div>No cost to your family</div>
-        <div class="bitem"><div class="bitem-dot">Ã¢ÂÂ</div>No hidden fees of any kind</div>
-        <div class="bitem"><div class="bitem-dot">Ã¢ÂÂ</div>No fees or commissions</div>
-        <div class="bitem"><div class="bitem-dot">Ã¢ÂÂ</div>No need to make repairs</div>
-        <div class="bitem"><div class="bitem-dot">Ã¢ÂÂ</div>Simple and clear process</div>
-        <div class="bitem"><div class="bitem-dot">Ã¢ÂÂ</div>Ongoing support throughout</div>
+        <div class="bitem"><div class="bitem-dot">&#10003;</div>No cost to your family</div>
+        <div class="bitem"><div class="bitem-dot">&#10003;</div>No hidden fees of any kind</div>
+        <div class="bitem"><div class="bitem-dot">&#10003;</div>No fees or commissions</div>
+        <div class="bitem"><div class="bitem-dot">&#10003;</div>No need to make repairs</div>
+        <div class="bitem"><div class="bitem-dot">&#10003;</div>Simple and clear process</div>
+        <div class="bitem"><div class="bitem-dot">&#10003;</div>Ongoing support throughout</div>
       </div>
 
       <!-- Right: copy + CTA -->
       <div class="benefits-right">
         <h2>We Will Take Care of Everything</h2>
-        <p>Our team handles the entire home sale from start to finish. We are the reliable local choice for Warner Robins homeowners who want a faster and simpler way to sell Ã¢ÂÂ without the uncertainty, expense, and delays of the traditional process.</p>
+        <p>Our team handles the entire home sale from start to finish. We are the reliable local choice for Warner Robins homeowners who want a faster and simpler way to sell &mdash; without the uncertainty, expense, and delays of the traditional process.</p>
         <p>You focus on what comes next. We take care of everything from the first conversation to the closing table.</p>
         <a href="#contact" class="btn btn-w btn-lg" onclick="scrollTo('#contact',event)">Get Cash Offer</a>
       </div>
@@ -686,8 +822,8 @@ h3{font-size:1.1rem;font-weight:700}
         <h2 id="wsc-head">Why Sell Your Warner Robins Home for Cash?</h2>
         <div style="margin:20px 0 24px;border-radius:14px;overflow:hidden;position:relative">
           <img
-            src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800&q=75&auto=format&fit=crop&fm=webp"
-            alt="Suburban home sold for cash in Warner Robins Georgia by Atlanta Cash Buyers"
+            src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200&q=80&auto=format&fit=crop&fm=webp"
+            alt="Warner Robins Georgia home sold for cash by Atlanta Cash Buyers"
             loading="lazy"
             decoding="async"
             width="800"
@@ -697,10 +833,10 @@ h3{font-size:1.1rem;font-weight:700}
           <div style="position:absolute;top:12px;left:12px;background:rgba(0,0,0,0.68);color:#fff;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:5px 10px;border-radius:6px">&#10003; SOLD FOR CASH</div>
         </div>
         <p>
-          You can get cash for your Warner Robins house in as little as 7 days. Skip months of uncertainty, costly repairs, and realtor commissions. We buy houses in any condition throughout Warner Robins, Macon, Houston County, and all of Middle Georgia Ã¢ÂÂ giving you a fair cash offer with a guaranteed closing. No financing delays, no inspection surprises, just cash in hand when you need it most.
+          You can get cash for your Warner Robins house in as little as 7 days. Skip months of uncertainty, costly repairs, and realtor commissions. We buy houses in any condition throughout Warner Robins, Macon, Houston County, and all of Middle Georgia &mdash; giving you a fair cash offer with a guaranteed closing. No financing delays, no inspection surprises, just cash in hand when you need it most.
         </p>
         <p>
-          When you factor in zero commission (up to 6% savings), zero repair costs, and zero closing costs, a cash sale is often more competitive with traditional listing proceeds than most sellers expect Ã¢ÂÂ and you get it in days, not months.
+          When you factor in zero commission (up to 6% savings), zero repair costs, and zero closing costs, a cash sale is often more competitive with traditional listing proceeds than most sellers expect &mdash; and you get it in days, not months.
         </p>
         <div style="margin-top:28px">
           <a href="#contact" class="btn btn-g btn-lg" onclick="scrollTo('#contact',event)">Get My Cash Offer Now</a>
@@ -710,21 +846,21 @@ h3{font-size:1.1rem;font-weight:700}
       <!-- Right: 3 sub-cards -->
       <div class="why-cash-cards">
         <div class="wcc">
-          <div class="wcc-ico">Ã°ÂÂÂ </div>
+          <div class="wcc-ico">&#127968;</div>
           <div>
             <h3>We Buy Houses As-Is</h3>
             <p>No repairs, no cleaning, no staging required. We buy your Warner Robins house exactly as-is, saving you thousands in contractor costs and months of delay. Whatever the property needs, we handle it after purchase.</p>
           </div>
         </div>
         <div class="wcc">
-          <div class="wcc-ico">Ã°ÂÂÂ</div>
+          <div class="wcc-ico">&#128210;</div>
           <div>
             <h3>No Listing or Showings</h3>
             <p>Skip the stress of traditional home showings. No strangers walking through your home, no keeping it show-ready for weeks, no scheduling conflicts. Just one quick walkthrough for your cash offer.</p>
           </div>
         </div>
         <div class="wcc">
-          <div class="wcc-ico">Ã°ÂÂÂ</div>
+          <div class="wcc-ico">&#128205;</div>
           <div>
             <h3>Trusted Local Home Buyer</h3>
             <p>Warner Robins homeowners trust us for fast closings, fair offers, and zero hidden fees. We are local investors who know the Middle Georgia market and handle every detail from first contact through closing day.</p>
@@ -736,7 +872,7 @@ h3{font-size:1.1rem;font-weight:700}
 </section>
 
 <!-- ============================================================
-     CTA BAND Ã¢ÂÂ 24 HOURS
+     CTA BAND &mdash; 24 HOURS
 ============================================================ -->
 <div class="sec-dark sec" style="padding:52px 0">
   <div class="wrap">
@@ -744,8 +880,7 @@ h3{font-size:1.1rem;font-weight:700}
       <div>
         <h2>Get a Cash Offer in 24 Hours</h2>
         <p>24-hour cash offers. 7-day closing available. Zero fees and zero commissions. Tell us about your property and we will reach out to discuss your options with no obligation and no pressure.</p>
-        <!-- CUSTOMIZE: Replace with your actual phone number -->
-        <p style="color:rgba(255,255,255,.55);font-size:13.5px;margin-top:10px">Ã°ÂÂÂ Call us directly: <a href="tel:+14789522395" style="color:var(--tan-soft);font-weight:700">(478) 952-2395</a></p>
+        <p style="color:rgba(255,255,255,.55);font-size:13.5px;margin-top:10px">&#128222; Call us directly: <a href="tel:+14789522395" style="color:var(--tan-soft);font-weight:700">(478) 952-2395</a></p>
       </div>
       <div class="cband-btns">
         <a href="#contact" class="btn btn-g btn-lg" onclick="scrollTo('#contact',event)">Sell My House</a>
@@ -777,11 +912,11 @@ h3{font-size:1.1rem;font-weight:700}
           <p class="qnum">Question 1 of 5</p>
           <p class="qtxt">How quickly do you need to sell?</p>
           <div class="qopts">
-            <button class="qopt" data-val="urgent"><span class="qopt-ico">Ã°ÂÂÂ¥</span>ASAP Ã¢ÂÂ days or weeks</button>
-            <button class="qopt" data-val="mid"><span class="qopt-ico">Ã°ÂÂÂ</span>1 to 3 months</button>
-            <button class="qopt" data-val="slow"><span class="qopt-ico">Ã°ÂÂÂ</span>3 to 6 months or no real rush</button>
+            <button class="qopt" data-val="urgent"><span class="qopt-ico">&#128165;</span>ASAP &mdash; days or weeks</button>
+            <button class="qopt" data-val="mid"><span class="qopt-ico">&#128197;</span>1 to 3 months</button>
+            <button class="qopt" data-val="slow"><span class="qopt-ico">&#128272;</span>3 to 6 months or no real rush</button>
           </div>
-          <div class="qnav"><span></span><button class="btn btn-g" id="qnext0" disabled>Next Ã¢ÂÂ</button></div>
+          <div class="qnav"><span></span><button class="btn btn-g" id="qnext0" disabled>Next &rarr;</button></div>
         </div>
 
         <!-- Q2 -->
@@ -789,11 +924,11 @@ h3{font-size:1.1rem;font-weight:700}
           <p class="qnum">Question 2 of 5</p>
           <p class="qtxt">What condition is the property in?</p>
           <div class="qopts">
-            <button class="qopt" data-val="great"><span class="qopt-ico">Ã¢ÂÂ¨</span>Updated and in great shape</button>
-            <button class="qopt" data-val="ok"><span class="qopt-ico">Ã°ÂÂÂ</span>Good shape with minor items</button>
-            <button class="qopt" data-val="poor"><span class="qopt-ico">Ã°ÂÂÂ§</span>Needs repairs or significant work</button>
+            <button class="qopt" data-val="great"><span class="qopt-ico">&#10084;</span>Updated and in great shape</button>
+            <button class="qopt" data-val="ok"><span class="qopt-ico">&#128077;</span>Good shape with minor items</button>
+            <button class="qopt" data-val="poor"><span class="qopt-ico">&#128295;</span>Needs repairs or significant work</button>
           </div>
-          <div class="qnav"><button class="qback" id="qb1">Ã¢ÂÂ Back</button><button class="btn btn-g" id="qnext1" disabled>Next Ã¢ÂÂ</button></div>
+          <div class="qnav"><button class="qback" id="qb1">&larr; Back</button><button class="btn btn-g" id="qnext1" disabled>Next &rarr;</button></div>
         </div>
 
         <!-- Q3 -->
@@ -801,11 +936,11 @@ h3{font-size:1.1rem;font-weight:700}
           <p class="qnum">Question 3 of 5</p>
           <p class="qtxt">Do you have money available for repairs?</p>
           <div class="qopts">
-            <button class="qopt" data-val="yes"><span class="qopt-ico">Ã°ÂÂÂ°</span>Yes, I can invest $5,000 or more</button>
-            <button class="qopt" data-val="some"><span class="qopt-ico">Ã°ÂÂÂµ</span>Some Ã¢ÂÂ maybe $1,000 to $5,000</button>
-            <button class="qopt" data-val="no"><span class="qopt-ico">Ã¢ÂÂ</span>No cash available for repairs</button>
+            <button class="qopt" data-val="yes"><span class="qopt-ico">&#128176;</span>Yes, I can invest $5,000 or more</button>
+            <button class="qopt" data-val="some"><span class="qopt-ico">&#128181;</span>Some &mdash; maybe $1,000 to $5,000</button>
+            <button class="qopt" data-val="no"><span class="qopt-ico">&#9989;</span>No cash available for repairs</button>
           </div>
-          <div class="qnav"><button class="qback" id="qb2">Ã¢ÂÂ Back</button><button class="btn btn-g" id="qnext2" disabled>Next Ã¢ÂÂ</button></div>
+          <div class="qnav"><button class="qback" id="qb2">&larr; Back</button><button class="btn btn-g" id="qnext2" disabled>Next &rarr;</button></div>
         </div>
 
         <!-- Q4 -->
@@ -813,11 +948,11 @@ h3{font-size:1.1rem;font-weight:700}
           <p class="qnum">Question 4 of 5</p>
           <p class="qtxt">What matters most to you in this sale?</p>
           <div class="qopts">
-            <button class="qopt" data-val="price"><span class="qopt-ico">Ã°ÂÂÂ</span>Getting the highest possible price</button>
-            <button class="qopt" data-val="speed"><span class="qopt-ico">Ã¢ÂÂ¡</span>Selling as fast as possible</button>
-            <button class="qopt" data-val="ease"><span class="qopt-ico">Ã°ÂÂÂ</span>A simple and stress-free experience</button>
+            <button class="qopt" data-val="price"><span class="qopt-ico">&#128142;</span>Getting the highest possible price</button>
+            <button class="qopt" data-val="speed"><span class="qopt-ico">&#9889;</span>Selling as fast as possible</button>
+            <button class="qopt" data-val="ease"><span class="qopt-ico">&#128269;</span>A simple and stress-free experience</button>
           </div>
-          <div class="qnav"><button class="qback" id="qb3">Ã¢ÂÂ Back</button><button class="btn btn-g" id="qnext3" disabled>Next Ã¢ÂÂ</button></div>
+          <div class="qnav"><button class="qback" id="qb3">&larr; Back</button><button class="btn btn-g" id="qnext3" disabled>Next &rarr;</button></div>
         </div>
 
         <!-- Q5 -->
@@ -825,11 +960,11 @@ h3{font-size:1.1rem;font-weight:700}
           <p class="qnum">Question 5 of 5</p>
           <p class="qtxt">How do you feel about home showings?</p>
           <div class="qopts">
-            <button class="qopt" data-val="fine"><span class="qopt-ico">Ã°ÂÂÂ</span>Totally fine with showings</button>
-            <button class="qopt" data-val="hard"><span class="qopt-ico">Ã°ÂÂÂ¬</span>It would be difficult for my situation</button>
-            <button class="qopt" data-val="avoid"><span class="qopt-ico">Ã°ÂÂÂ</span>I want to avoid them if possible</button>
+            <button class="qopt" data-val="fine"><span class="qopt-ico">&#128077;</span>Totally fine with showings</button>
+            <button class="qopt" data-val="hard"><span class="qopt-ico">&#128556;</span>It would be difficult for my situation</button>
+            <button class="qopt" data-val="avoid"><span class="qopt-ico">&#128578;</span>I want to avoid them if possible</button>
           </div>
-          <div class="qnav"><button class="qback" id="qb4">Ã¢ÂÂ Back</button><button class="btn btn-g" id="qnext4" disabled>Show Me My Best Path</button></div>
+          <div class="qnav"><button class="qback" id="qb4">&larr; Back</button><button class="btn btn-g" id="qnext4" disabled>Show Me My Best Path</button></div>
         </div>
 
         <!-- Result -->
@@ -857,30 +992,30 @@ h3{font-size:1.1rem;font-weight:700}
     <h2 id="areas-head" style="margin-bottom:8px">We Buy Houses Across Middle Georgia</h2>
     <p class="subtitle" style="margin-bottom:36px">Serving homeowners throughout Warner Robins, Houston County, and all of Middle Georgia.</p>
     <div class="areas-grid">
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Warner Robins</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Centerville</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Bonaire</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Perry</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Byron</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Kathleen</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Macon</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Fort Valley</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Milledgeville</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Gray</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Forsyth</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Hawkinsville</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Dublin</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Cochran</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Eastman</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Jeffersonville</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Barnesville</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Reynolds</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>McRae-Helena</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Sandersville</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Cordele</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Americus</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Tifton</a>
-      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">Ã°ÂÂÂ</span>Vidalia</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Warner Robins</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Centerville</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Bonaire</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Perry</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Byron</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Kathleen</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Macon</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Fort Valley</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Milledgeville</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Gray</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Forsyth</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Hawkinsville</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Dublin</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Cochran</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Eastman</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Jeffersonville</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Barnesville</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Reynolds</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>McRae-Helena</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Sandersville</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Cordele</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Americus</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Tifton</a>
+      <a href="#contact" class="alink" onclick="scrollTo('#contact',event)"><span style="font-size:11px">&#128205;</span>Vidalia</a>
     </div>
     <div class="areas-cta">
       <p>Don't see your city? We likely still buy there. <strong style="color:var(--g)">Reach out and let us know where your property is.</strong></p>
@@ -902,9 +1037,9 @@ h3{font-size:1.1rem;font-weight:700}
         <h2 id="sf-head">Get Your Free Cash Offer Today</h2>
         <p>We are committed to transparency, honest communication, and helping sellers understand all of their options. Fill out the form and we will contact you quickly.</p>
         <div class="promises">
-          <div class="prom"><div class="prom-ico">Ã¢ÂÂ</div><span><strong>Our priority is you.</strong> We keep you informed every step of the way with clear communication and honest guidance.</span></div>
-          <div class="prom"><div class="prom-ico">Ã¢ÂÂ</div><span><strong>We tell you the truth.</strong> If a traditional listing makes more sense for your situation, we will say so. We believe in doing what is right for you.</span></div>
-          <div class="prom"><div class="prom-ico">Ã¢ÂÂ</div><span><strong>When cash is your best path, we make it simple.</strong> Fair offers, fast closings, and complete transparency from first contact to closing day.</span></div>
+          <div class="prom"><div class="prom-ico">&#10003;</div><span><strong>Our priority is you.</strong> We keep you informed every step of the way with clear communication and honest guidance.</span></div>
+          <div class="prom"><div class="prom-ico">&#10003;</div><span><strong>We tell you the truth.</strong> If a traditional listing makes more sense for your situation, we will say so. We believe in doing what is right for you.</span></div>
+          <div class="prom"><div class="prom-ico">&#10003;</div><span><strong>When cash is your best path, we make it simple.</strong> Fair offers, fast closings, and complete transparency from first contact to closing day.</span></div>
         </div>
         <div>
           <p class="sit-head">Situations we help with:</p>
@@ -986,7 +1121,7 @@ h3{font-size:1.1rem;font-weight:700}
           </div>
           <button type="submit" class="btn btn-g btn-full btn-lg">Submit My Property</button>
         </form>
-        <p class="fnote">Ã°ÂÂÂ Your information is private and never shared with third parties.</p>
+        <p class="fnote">&#128210; Your information is private and never shared with third parties.</p>
       </div>
 
     </div>
@@ -1004,22 +1139,22 @@ h3{font-size:1.1rem;font-weight:700}
       <p class="subtitle" style="max-width:520px;margin:10px auto 0">No matter what brought you here, we work with Warner Robins and Middle Georgia homeowners facing all kinds of circumstances.</p>
     </div>
     <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px" id="whelp-grid">
-      <div class="wcard"><span>Ã¢ÂÂ Ã¯Â¸Â</span>Foreclosure</div>
-      <div class="wcard"><span>Ã°ÂÂÂ¸</span>Behind on Payments</div>
-      <div class="wcard"><span>Ã°ÂÂÂ</span>Inherited Property</div>
-      <div class="wcard"><span>Ã¢ÂÂÃ¯Â¸Â</span>Probate</div>
-      <div class="wcard"><span>Ã°ÂÂÂ</span>Divorce</div>
-      <div class="wcard"><span>Ã°ÂÂÂÃ¯Â¸Â</span>Vacant Property</div>
-      <div class="wcard"><span>Ã°ÂÂÂ©</span>Tired Landlord</div>
-      <div class="wcard"><span>Ã°ÂÂÂ¥</span>Difficult Tenants</div>
-      <div class="wcard"><span>Ã°ÂÂÂ¨</span>Costly Repairs</div>
-      <div class="wcard"><span>Ã°ÂÂÂ¨</span>Code Violations</div>
-      <div class="wcard"><span>Ã°ÂÂÂ</span>Relocation</div>
-      <div class="wcard"><span>Ã¢Â¬ÂÃ¯Â¸Â</span>Downsizing</div>
-      <div class="wcard"><span>Ã°ÂÂÂ</span>Loss of Income</div>
-      <div class="wcard"><span>Ã°ÂÂÂÃ¯Â¸Â</span>Tax Issues</div>
-      <div class="wcard"><span>Ã°ÂÂÂ¥</span>Fire or Storm Damage</div>
-      <div class="wcard"><span>Ã°ÂÂÂ </span>Hoarder House</div>
+      <div class="wcard"><span>&#9888;</span>Foreclosure</div>
+      <div class="wcard"><span>&#128248;</span>Behind on Payments</div>
+      <div class="wcard"><span>&#128156;</span>Inherited Property</div>
+      <div class="wcard"><span>&#9878;</span>Probate</div>
+      <div class="wcard"><span>&#128148;</span>Divorce</div>
+      <div class="wcard"><span>&#127962;</span>Vacant Property</div>
+      <div class="wcard"><span>&#128525;&copy;</span>Tired Landlord</div>
+      <div class="wcard"><span>&#129301;</span>Difficult Tenants</div>
+      <div class="wcard"><span>&#128296;</span>Costly Repairs</div>
+      <div class="wcard"><span>&#128680;</span>Code Violations</div>
+      <div class="wcard"><span>&#128666;</span>Relocation</div>
+      <div class="wcard"><span>&darr;</span>Downsizing</div>
+      <div class="wcard"><span>&#128201;</span>Loss of Income</div>
+      <div class="wcard"><span>&#127963;</span>Tax Issues</div>
+      <div class="wcard"><span>&#128165;</span>Fire or Storm Damage</div>
+      <div class="wcard"><span>&#127968;</span>Hoarder House</div>
     </div>
     <style>
       .wcard{display:flex;align-items:center;gap:10px;background:#fff;border:1.5px solid var(--border);border-radius:var(--radius);padding:12px 15px;font-size:13.5px;font-weight:600;color:var(--text);transition:all .18s;cursor:default}
@@ -1043,7 +1178,6 @@ h3{font-size:1.1rem;font-weight:700}
       <span class="eyebrow">Got Questions?</span>
       <h2 id="faq-head">Questions About Selling Your House for Cash?</h2>
       <p class="subtitle" style="max-width:540px">Get honest answers about how Atlanta Cash Buyers works in Warner Robins and Middle Georgia.</p>
-      <!-- CUSTOMIZE: Replace phone number -->
       <div class="faq-phone">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="var(--g)"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C9.6 21 3 14.4 3 6c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z"/></svg>
         <span>Skip the reading? Call us at <a href="tel:+14789522395"><strong>(478) 952-2395</strong></a> and we will answer your questions in 5 minutes. No pressure.</span>
@@ -1069,7 +1203,7 @@ h3{font-size:1.1rem;font-weight:700}
 
       <div class="fi" role="listitem">
         <div class="fiq" tabindex="0" role="button" aria-expanded="false"><h3>How much will you offer for my house?</h3><div class="fii">+</div></div>
-        <div class="fia" role="region"><p>Our offers are based on the property's condition, location, and current Middle Georgia market values. Cash offers are typically below full retail listing price. However, when you factor in <strong>zero commissions, zero repair costs, and zero closing costs</strong>, many sellers find the net result is competitive Ã¢ÂÂ and they receive it in days rather than months. We are transparent about how we arrive at our numbers and always encourage you to compare your options.</p></div>
+        <div class="fia" role="region"><p>Our offers are based on the property's condition, location, and current Middle Georgia market values. Cash offers are typically below full retail listing price. However, when you factor in <strong>zero commissions, zero repair costs, and zero closing costs</strong>, many sellers find the net result is competitive &mdash; and they receive it in days rather than months. We are transparent about how we arrive at our numbers and always encourage you to compare your options.</p></div>
       </div>
 
       <div class="fi" role="listitem">
@@ -1084,7 +1218,7 @@ h3{font-size:1.1rem;font-weight:700}
 
       <div class="fi" role="listitem">
         <div class="fiq" tabindex="0" role="button" aria-expanded="false"><h3>What if I am behind on payments or facing foreclosure?</h3><div class="fii">+</div></div>
-        <div class="fia" role="region"><p>We work with homeowners in foreclosure situations and can often close before a scheduled foreclosure sale date. <strong>Time is critical</strong> Ã¢ÂÂ the closer to your sale date, the fewer options you have. Contact us as soon as possible if foreclosure is a concern. Even if your timeline is very short, reach out and we will let you know what may be possible.</p></div>
+        <div class="fia" role="region"><p>We work with homeowners in foreclosure situations and can often close before a scheduled foreclosure sale date. <strong>Time is critical</strong> &mdash; the closer to your sale date, the fewer options you have. Contact us as soon as possible if foreclosure is a concern. Even if your timeline is very short, reach out and we will let you know what may be possible.</p></div>
       </div>
 
       <div class="fi" role="listitem">
@@ -1092,10 +1226,10 @@ h3{font-size:1.1rem;font-weight:700}
         <div class="fia" role="region">
           <p>A simple four-step process:</p>
           <ul>
-            <li><strong>You contact us (5 minutes)</strong> Ã¢ÂÂ Phone, text, or form. We ask a few basic questions about your property.</li>
-            <li><strong>Property walkthrough (30 minutes)</strong> Ã¢ÂÂ We schedule a quick visit at your convenience. No need to clean or prepare anything.</li>
-            <li><strong>Receive your cash offer (24 hours)</strong> Ã¢ÂÂ We present a fair written offer. No obligation, take your time to review.</li>
-            <li><strong>Close on your timeline (7 or more days)</strong> Ã¢ÂÂ If you accept, we close when it works for you. You can walk away at any point before signing with no hard feelings.</li>
+            <li><strong>You contact us (5 minutes)</strong> &mdash; Phone, text, or form. We ask a few basic questions about your property.</li>
+            <li><strong>Property walkthrough (30 minutes)</strong> &mdash; We schedule a quick visit at your convenience. No need to clean or prepare anything.</li>
+            <li><strong>Receive your cash offer (24 hours)</strong> &mdash; We present a fair written offer. No obligation, take your time to review.</li>
+            <li><strong>Close on your timeline (7 or more days)</strong> &mdash; If you accept, we close when it works for you. You can walk away at any point before signing with no hard feelings.</li>
           </ul>
         </div>
       </div>
@@ -1130,25 +1264,26 @@ h3{font-size:1.1rem;font-weight:700}
     <div class="sec-hd" style="text-align:center;margin-bottom:48px">
       <span class="eyebrow">Why Homeowners Choose Us</span>
       <h2 id="promise-head">Our Promise to You</h2>
-      <p class="subtitle" style="max-width:560px;margin:12px auto 0">We built Atlanta Cash Buyers around one principle: treat every homeowner the way weÃ¢ÂÂd want to be treated. HereÃ¢ÂÂs what that looks like in practice.</p>
+      <p class="subtitle" style="max-width:560px;margin:12px auto 0">We built Atlanta Cash Buyers around one principle: treat every homeowner the way we&rsquo;d want to be treated.</p>
     </div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px">
       <div style="background:#fff;border-radius:18px;padding:36px 32px;box-shadow:0 6px 24px rgba(28,28,26,.08);border-top:4px solid var(--tan)">
-        <div style="font-size:2rem;margin-bottom:16px">Ã¢ÂÂ</div>
-        <h3 style="font-family:'Lora',serif;font-size:1.2rem;color:var(--forest);margin-bottom:12px">Honest, No-Pressure Offers</h3>
-        <p style="font-size:15px;color:var(--muted);line-height:1.7">We present a fair written cash offer based on real market dataÃ¢ÂÂno inflated numbers to get you hooked, no last-minute reductions at closing. What we offer is what you receive.</p>
+        <div style="font-size:2rem;margin-bottom:16px">&#129309;</div>
+        <h3 style="font-family:'Lora',serif;font-size:1.2rem;color:var(--forest);margin-bottom:12px">Our Word Is Our Bond</h3>
+        <p style="font-size:15px;color:var(--muted);line-height:1.7">The number we offer is the number you get. No last-minute cuts, no surprise deductions at closing. Ever.</p>
       </div>
       <div style="background:#fff;border-radius:18px;padding:36px 32px;box-shadow:0 6px 24px rgba(28,28,26,.08);border-top:4px solid var(--tan)">
-        <div style="font-size:2rem;margin-bottom:16px">Ã°ÂÂÂ</div>
-        <h3 style="font-family:'Lora',serif;font-size:1.2rem;color:var(--forest);margin-bottom:12px">YouÃ¢ÂÂre Always in Control</h3>
-        <p style="font-size:15px;color:var(--muted);line-height:1.7">You pick the closing date. You decide the pace. There are zero obligations to move forward until youÃ¢ÂÂre ready. We work on your scheduleÃ¢ÂÂnot ours.</p>
+        <div style="font-size:2rem;margin-bottom:16px">&#9889;</div>
+        <h3 style="font-family:'Lora',serif;font-size:1.2rem;color:var(--forest);margin-bottom:12px">We Move Fast</h3>
+        <p style="font-size:15px;color:var(--muted);line-height:1.7">Cash offer within 24 hours, close in as little as 7 days. We respect your time and never leave you waiting.</p>
       </div>
       <div style="background:#fff;border-radius:18px;padding:36px 32px;box-shadow:0 6px 24px rgba(28,28,26,.08);border-top:4px solid var(--tan)">
-        <div style="font-size:2rem;margin-bottom:16px">Ã°ÂÂÂ </div>
-        <h3 style="font-family:'Lora',serif;font-size:1.2rem;color:var(--forest);margin-bottom:12px">Local Experts Who Care</h3>
-        <p style="font-size:15px;color:var(--muted);line-height:1.7">WeÃ¢ÂÂre Warner Robins locals who understand the Middle Georgia market. Every transaction is handled personallyÃ¢ÂÂno call centers, no runarounds. Just real people helping real neighbors.</p>
+        <div style="font-size:2rem;margin-bottom:16px">&#128172;</div>
+        <h3 style="font-family:'Lora',serif;font-size:1.2rem;color:var(--forest);margin-bottom:12px">Always Reachable</h3>
+        <p style="font-size:15px;color:var(--muted);line-height:1.7">Call or text <a href="tel:+14789522395" style="color:var(--forest);font-weight:600">(478) 952-2395</a> and we will actually pick up.</p>
       </div>
     </div>
+    <p style="text-align:center;max-width:640px;margin:36px auto 0;font-size:15px;color:var(--muted);line-height:1.7;font-style:italic">After we close your sale, we will ask you to share your honest experience on Google so other Warner Robins homeowners know who to trust.</p>
   </div>
 </section>
 
@@ -1164,10 +1299,9 @@ h3{font-size:1.1rem;font-weight:700}
         <div class="fb-tag">Middle Georgia's Cash Home Buyer</div>
         <p class="fb-desc">Selling your Warner Robins home to Atlanta Cash Buyers is a simpler option. No listing fees, no agent commissions, and a fast, hassle-free closing process on your schedule.</p>
         <div class="fb-contact">
-          <!-- CUSTOMIZE: Replace with actual phone, email, address -->
-          <a href="tel:+14789522395">Ã°ÂÂÂ (478) 952-2395</a>
-          <a href="mailto:info@sellyourhousefastwarnerrobins.com">Ã¢ÂÂ info@sellyourhousefastwarnerrobins.com</a>
-          <span>Ã°ÂÂÂ Warner Robins, GA and Surrounding Areas</span>
+          <a href="tel:+14789522395">&#128222; (478) 952-2395</a>
+          <a href="mailto:info@sellyourhousefastwarnerrobins.com">&#9993; info@sellyourhousefastwarnerrobins.com</a>
+          <span>&#128205; Warner Robins, GA and Surrounding Areas</span>
         </div>
       </div>
       <!-- Quick links -->
@@ -1210,7 +1344,7 @@ h3{font-size:1.1rem;font-weight:700}
 
     <div class="footer-btm">
       <div>
-        <p>ÃÂ© 2026 Atlanta Cash Buyers. All Rights Reserved. | sellyourhousefastwarnerrobins.com</p>
+        <p>&copy; 2026 Atlanta Cash Buyers. All Rights Reserved. | sellyourhousefastwarnerrobins.com</p>
         <p class="footer-disc">Atlanta Cash Buyers is a real estate investment company serving Warner Robins and Middle Georgia. We are not acting as a licensed real estate agent on behalf of sellers. All offers are subject to property review and are not guaranteed until a written purchase agreement is fully executed by all parties.</p>
       </div>
       <div class="footer-btm-links">
@@ -1280,17 +1414,11 @@ function showSuccess(wrapId, message) {
   const wrap = document.getElementById(wrapId);
   wrap.innerHTML = `
     <div class="fsuccess">
-      <div class="fsuccess-ico">Ã¢ÂÂ</div>
+      <div class="fsuccess-ico">&#10003;</div>
       <h4>Thank You!</h4>
       <p>${message}</p>
     </div>`;
 }
-
-// CUSTOMIZE: Replace the setTimeout body with your actual form submission
-// Options: Formspree Ã¢ÂÂ fetch('https://formspree.io/f/YOUR_ID', {...})
-//          EmailJS   Ã¢ÂÂ emailjs.send('service','template',data,'key')
-//          Custom API Ã¢ÂÂ fetch('/api/leads', { method:'POST', body: JSON.stringify(data) })
-
 document.getElementById('heroForm').addEventListener('submit', function(e) {
   e.preventDefault();
   const ok = validateForm([
@@ -1307,11 +1435,11 @@ document.getElementById('heroForm').addEventListener('submit', function(e) {
     phone: document.getElementById('h_phone').value,
     email: document.getElementById('h_email').value,
     address: document.getElementById('h_addr').value,
-    _subject: 'New Cash Offer Request Ã¢ÂÂ Warner Robins',
+    _subject: 'New Cash Offer Request - Warner Robins',
     _replyto: document.getElementById('h_email').value
   };
   const hBtn = event.target.querySelector('[type="submit"]');
-  hBtn.disabled = true; hBtn.textContent = 'SendingÃ¢ÂÂ¦';
+  hBtn.disabled = true; hBtn.textContent = 'Sending…';
   fetch('https://formspree.io/info@sellyourhousefastwarnerrobins.com', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
@@ -1346,11 +1474,11 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     email: document.getElementById('c_email').value,
     address: document.getElementById('c_addr').value,
     message: document.getElementById('c_msg') ? document.getElementById('c_msg').value : '',
-    _subject: 'New Contact Form Lead Ã¢ÂÂ Warner Robins',
+    _subject: 'New Contact Form Lead - Warner Robins',
     _replyto: document.getElementById('c_email').value
   };
   const cBtn = event.target.querySelector('[type="submit"]');
-  cBtn.disabled = true; cBtn.textContent = 'SendingÃ¢ÂÂ¦';
+  cBtn.disabled = true; cBtn.textContent = 'Sending…';
   fetch('https://formspree.io/info@sellyourhousefastwarnerrobins.com', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
@@ -1429,14 +1557,14 @@ function showResult() {
   const r = document.getElementById('qresult');
   let ico, title, text;
   if (cashSignals >= 3) {
-    ico = 'Ã¢ÂÂ¡'; title = 'A Cash Sale May Be Your Best Option';
+    ico = '&#9889;'; title = 'A Cash Sale May Be Your Best Option';
     text = 'Based on your answers, a cash offer could save you significant time, money, and stress. Request a free, no-obligation offer from Atlanta Cash Buyers and compare it with your other options in Warner Robins.';
   } else if (cashSignals === 2) {
-    ico = 'Ã°ÂÂ¤Â'; title = "Let's Talk Through Your Options";
+    ico = '&#129309;'; title = "Let's Talk Through Your Options";
     text = 'Your situation has factors pointing in both directions. A quick conversation with our team will help you compare a cash offer with a traditional listing for your specific property.';
   } else {
-    ico = 'Ã°ÂÂÂ '; title = 'A Traditional Listing May Maximize Your Price';
-    text = 'Based on your answers, a traditional listing may be worth exploring. A cash offer is always free to request Ã¢ÂÂ we will be upfront if listing looks like the better path for your situation.';
+    ico = '&#127968;'; title = 'A Traditional Listing May Maximize Your Price';
+    text = 'Based on your answers, a traditional listing may be worth exploring. A cash offer is always free to request &mdash; we will be upfront if listing looks like the better path for your situation.';
   }
   document.getElementById('q-ico').textContent = ico;
   document.getElementById('q-title').textContent = title;
@@ -1457,5 +1585,11 @@ function resetQuiz() {
 }
 </script>
 
+
+<!-- Sticky mobile CTA bar (shown only on mobile via CSS) -->
+<div class="mob-cta" role="navigation" aria-label="Mobile quick actions">
+  <a href="tel:+14789522395" class="mob-cta-call">&#128222; Call Now</a>
+  <a href="#contact" onclick="scrollTo('#contact',event)" class="mob-cta-offer">Get Cash Offer</a>
+</div>
 </body>
 </html>
