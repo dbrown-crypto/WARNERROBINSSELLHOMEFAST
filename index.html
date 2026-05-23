@@ -122,7 +122,7 @@ h3{font-size:1.1rem;font-weight:700}
 .mob-nav-btm{display:flex;flex-direction:column;gap:12px;padding-top:16px}
 
 /* HERO */
-.hero{background:linear-gradient(135deg,rgba(8,38,29,0.88) 0%,rgba(15,61,46,0.82) 55%,rgba(22,78,58,0.85) 100%),url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1400&q=75&auto=format&fit=crop&fm=webp') center/cover no-repeat;padding:68px 0 56px;position:relative;overflow:hidden}
+.hero{background:linear-gradient(135deg,rgba(8,38,29,0.88) 0%,rgba(15,61,46,0.82) 55%,rgba(22,78,58,0.85) 100%),url('https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1400&q=75&auto=format&fit=crop&fm=webp') center/cover no-repeat;padding:68px 0 56px;position:relative;overflow:hidden}
 .hero::before{content:'';position:absolute;top:-60px;right:-40px;width:540px;height:540px;background:radial-gradient(ellipse at center,rgba(200,169,106,.16) 0%,transparent 65%);pointer-events:none}
 .hero::after{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:48px 48px;pointer-events:none}
 .hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1fr 420px;gap:52px;align-items:center}
@@ -615,6 +615,8 @@ img{max-width:100%;height:auto}
             </div>
           </div>
           <button type="submit" class="btn btn-g btn-full btn-lg" style="margin-top:2px">Submit My Cash Offer</button>
+        <input type="hidden" name="sms_consent" value="yes"/>
+        <p style="font-size:11px;color:#6b7280;line-height:1.5;margin-top:10px;text-align:center">By submitting, you consent to receive SMS and calls from Atlanta Cash Buyers at the number provided. Msg &amp; data rates may apply. Reply STOP to opt out. <a href="privacy.html" style="color:var(--forest);text-decoration:underline">Privacy Policy</a>.</p>
         </form>
         <p class="fnote">&#128210; No obligation. No pressure. Get started in minutes.</p>
       </div>
@@ -1120,6 +1122,8 @@ img{max-width:100%;height:auto}
             </div>
           </div>
           <button type="submit" class="btn btn-g btn-full btn-lg">Submit My Property</button>
+        <input type="hidden" name="sms_consent" value="yes"/>
+        <p style="font-size:11px;color:rgba(255,255,255,0.65);line-height:1.5;margin-top:10px;text-align:center">By submitting, you consent to receive SMS and calls from Atlanta Cash Buyers at the number provided. Msg &amp; data rates may apply. Reply STOP to opt out. <a href="privacy.html" style="color:rgba(255,255,255,0.85);text-decoration:underline">Privacy Policy</a>.</p>
         </form>
         <p class="fnote">&#128210; Your information is private and never shared with third parties.</p>
       </div>
@@ -1346,6 +1350,7 @@ img{max-width:100%;height:auto}
       <div>
         <p>&copy; 2026 Atlanta Cash Buyers. All Rights Reserved. | sellyourhousefastwarnerrobins.com</p>
         <p class="footer-disc">Atlanta Cash Buyers is a real estate investment company serving Warner Robins and Middle Georgia. We are not acting as a licensed real estate agent on behalf of sellers. All offers are subject to property review and are not guaranteed until a written purchase agreement is fully executed by all parties.</p>
+        <p class="footer-disc" style="margin-top:8px;font-size:11px">SMS: By contacting us, you agree to receive SMS messages about your property inquiry. Msg &amp; data rates may apply. Reply STOP to opt out at any time. Reply HELP for assistance. Carriers are not liable for undelivered messages.</p>
       </div>
       <div class="footer-btm-links">
         <a href="terms.html">Terms and Conditions</a>
